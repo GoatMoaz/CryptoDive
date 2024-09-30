@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #101428;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+@layer components {
+  .link {
+    @apply text-white p-4 font-medium text-xl hover:text-[#00FFA0] transition-colors duration-300 ease-in-out;
+  }
+}
