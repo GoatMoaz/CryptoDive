@@ -18,7 +18,7 @@ export default function Nav() {
         </Link>
         <ul className="md:flex hidden">
           <li>
-            <Link className="link" href="#">
+            <Link className="link" href="/">
               Home
             </Link>
           </li>
@@ -28,12 +28,12 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link className="link" href="#">
+            <Link className="link" href="/#learn">
               Learn
             </Link>
           </li>
           <li>
-            <Link className="link" href="#">
+            <Link className="link" href="/#support">
               Support
             </Link>
           </li>
@@ -46,7 +46,7 @@ export default function Nav() {
             </MenubarTrigger>
             <MenubarContent>
               <MenubarItem>
-                <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
               </MenubarItem>
               <MenubarSeparator />
               <MenubarItem>
@@ -54,11 +54,11 @@ export default function Nav() {
               </MenubarItem>
               <MenubarSeparator />
               <MenubarItem>
-                <Link href="#">Learn</Link>
+                <Link href="/#learn">Learn</Link>
               </MenubarItem>
               <MenubarSeparator />
               <MenubarItem>
-                <Link href="#">Support</Link>
+                <Link href="/#support">Support</Link>
               </MenubarItem>
             </MenubarContent>
           </MenubarMenu>
